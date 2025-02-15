@@ -1,0 +1,52 @@
+{
+  "name": "react-ssr-project",
+  "version": "1.0.0",
+  "description": "This is a react SSR test project.",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coderooz/react-ssr-project.git"
+  },
+  "bugs": "",
+  "keywords": [
+    "react",
+    "ssr"
+  ],
+  "author": {
+    "name": "Ranit Saha (Coderooz)",
+    "email": "coderooz.dev@gmail.com",
+    "url": "https://www.coderooz.xyz"
+  },
+  "contributors": [],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rmdir /S /Q dist",
+    "build": "npm run clean && npx webpack --config webpack.config.cjs",
+    "start": "npm run build && node dist/server.cjs"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "@babel/preset-typescript": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "html-webpack-plugin": "^5.6.3",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "@react-router/serve": "^7.1.5",
+    "express": "^4.21.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.5"
+  }
+}
