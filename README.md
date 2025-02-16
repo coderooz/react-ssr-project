@@ -21,7 +21,7 @@ This project is a test application demonstrating server-side rendering (SSR) usi
 
 ## Overview
 
-This project renders a basic React application on the server using Express. The client-side code is bundled with Webpack, and SSR is implemented using ReactDOMServer. In addition to improved SEO and fast initial page loads, version 1.0.2 now includes features for automatic asset rebuilding and live reload during development.
+This project renders a basic React application on the server using Express. The client-side code is bundled with Webpack, and SSR is implemented using ReactDOMServer. In addition to improved SEO and fast initial page loads, version 1.0.1 now includes features for automatic asset rebuilding and live reload during development.
 
 ---
 
@@ -97,7 +97,7 @@ Your application will be available at [http://localhost:3000](http://localhost:3
 
 ## Development
 
-Version 1.0.2 includes a streamlined development workflow with automatic rebuilding and live reload capabilities.
+Version 1.0.1 includes a streamlined development workflow with automatic rebuilding and live reload capabilities.
 
 ### Features
 
